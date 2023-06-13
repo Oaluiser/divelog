@@ -124,7 +124,11 @@ main > div > div > a > div > p {
         width: 100%;
     }
 
-    main > div > div:nth-child(even) {
+    main > div > div > a {
+        align-items: center;
+    }
+
+    main > div > div:nth-child(even) > a {
         flex-direction: row-reverse;
         text-align: right;
     }

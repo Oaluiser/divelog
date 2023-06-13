@@ -154,6 +154,10 @@ main > div > div > div > a > h2 {
     main > div > div:last-of-type {
         width: 100%;
     }
+
+    main > div > a > h1 {
+        font-size: 2rem;
+    }
 }
 
 /* Mais Notícias */
@@ -265,8 +269,10 @@ main > div > div > div > a > h2 {
 
 #ultimasNoticias > div > div > img {
     width: 100%;
+    height: 250px;
     border-radius: 10px;
     margin-bottom: 16px;
+    object-fit: cover;
 }
 
 #ultimasNoticias > div > div > p:first-of-type {
